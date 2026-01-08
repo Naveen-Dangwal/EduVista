@@ -1,0 +1,24 @@
+.hero {
+    position: relative;
+  }
+  .hero .hero-quote {
+    position: absolute;
+    bottom: 6.4rem;
+    left: 5.2rem;
+    background-color: white;
+    padding: 10px;
+    max-width: 60rem;
+    box-shadow: var(--dropdown-box-shadow);
+    background-color: rgb(249, 2, 249);
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    @media (max-width:700px){
+      left: 1.2rem;
+      }
+  }
+  a{
+    color: purple;
+    font-weight: 600;
+    text-decoration: none;
+  }

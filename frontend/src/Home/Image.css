@@ -1,0 +1,59 @@
+.container{
+    margin-top: 85px;
+}
+.hero1 {
+    position: relative;
+  }
+  .hero1 img{
+    height: 500px;
+  }
+  .hero1 .hero-quote1 {
+    position: absolute;
+    top: 9.4rem;
+    left: 3.2rem;
+    background-color: white;
+    padding: 20px;
+    max-width: 44rem;
+    box-shadow: var(--dropdown-box-shadow);
+  }
+  .hero1 .hero-quote1 button {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .hero1 .hero-quote1 p {
+    font-size: large;
+  }
+  .hero1 .hero-quote1 h1 {
+    font-size: 35px;
+    margin-left: 0;
+  }
+  
+  @media screen and (max-width: 1340px) {
+    .hero1 .hero-quote1 {
+      width: 40rem;
+      left: 4.8rem;
+      top: 2.4rem;
+    }
+  }
+  @media screen and (max-width: 1096px) {
+    .hero1 .hero-quote1 {
+      width: 34rem;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .hero1 picture {
+      height: 25rem;
+      object-fit: contain;
+    }
+    .hero1 .hero-quote1 {
+      position: static;
+      padding: 2.4rem;
+      background: white;
+      box-shadow: initial;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  

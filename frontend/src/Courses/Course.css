@@ -1,0 +1,25 @@
+.course-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .course-popup {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    z-index: 10;
+  }
+  
+  .course-card:hover .course-popup {
+    left: 100%; /* Position it to the right of the card */
+    opacity: 1;
+    transform: translateX(-100%); /* Make it slide in */
+  }
+  
