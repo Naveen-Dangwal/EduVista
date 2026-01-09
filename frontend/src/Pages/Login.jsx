@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
-import './Login.css'; // Optional: Styling for the form
+import './login.css'; // Optional: Styling for the form
 import { NavLink } from 'react-router-dom';
 
 const Login = () => {
